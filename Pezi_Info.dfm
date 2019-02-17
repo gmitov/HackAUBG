@@ -1,0 +1,71 @@
+object Form_Info: TForm_Info
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'pane'
+  ClientHeight = 144
+  ClientWidth = 428
+  Color = 15727353
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesigned
+  OnCreate = FormCreate
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 428
+    Height = 33
+    TabOrder = 0
+    object SpeedButton1: TSpeedButton
+      Left = 392
+      Top = 1
+      Width = 35
+      Height = 31
+      Align = alRight
+      Caption = 'X'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -21
+      Font.Name = 'Tele-Marines'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label1: TLabel
+      Left = 6
+      Top = 9
+      Width = 52
+      Height = 15
+      Caption = 'Pezi'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tele-Marines'
+      Font.Style = []
+      ParentFont = False
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 38
+    Width = 428
+    Height = 106
+    Align = alBottom
+    Caption = 'Panel2'
+    TabOrder = 1
+    object CheckListBox1: TCheckListBox
+      Left = 6
+      Top = 8
+      Width = 421
+      Height = 97
+      ItemHeight = 13
+      TabOrder = 0
+    end
+  end
+end
